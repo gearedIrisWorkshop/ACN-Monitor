@@ -1,0 +1,136 @@
+
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+td:last-child{
+  text-align: right;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.column {
+    flex:24%;
+    
+}
+
+div.output{
+  width:100%;
+  display:flex;
+  overflow:auto;
+
+
+}
+
+.container{
+    width: 100%;
+    border: 1px solid gray;
+    overflow: auto;
+    height: auto;
+}
+
+header{
+    padding: 1em;
+    color: beige;
+    background-color: deepskyblue;
+    clear: left;
+    text-align: left;
+
+}
+.version{
+  display:inline-block;
+  color: beige;
+  background-color:red;
+  border: 1px solid beige;
+  font-size: 50%;
+}
+
+
+nav ul{
+
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+    overflow: hidden;
+    text-align: center;
+    border-bottom: 1px solid grey;
+    background-color:slategrey;
+}
+
+li{
+    display: inline;
+}
+
+nav ul a{
+
+    text-decoration: none;
+    padding: 5px 15px;
+    color: beige;
+    background-color:slategrey;
+    display: inline-block;
+}
+
+div.content{
+    min-height:100px;
+    margin-bottom: auto;
+    padding:1em;
+}
+div.content ul li{
+  text-decoration:none;
+  display:
+}
+
+footer{
+    color: beige;
+    border-top: 1px solid grey;
+    background-color: slategrey;
+    padding:1em;
+}
+
+
+
+
+.SkyPanelCard{
+  width:100%;
+  background: linear-gradient( darkgrey, slategrey);
+  border: 1px solid black;
+  color: beige;
+  text-shadow: 1px 1px black;
+  padding: 5px;
+  margin-bottom: 5px;
+
+}
+
+
+.FixtureType{
+  display: inline;
+}
+
+.HeadNo{
+  float: right;
+  display: inline;
+  color: beige;
+}
+
+.Intensity{
+  display: inline;
+
+}
+.ColorTemp{
+  display: inline;
+}
+
+.CrossFade{
+  display: inline;
+
+}

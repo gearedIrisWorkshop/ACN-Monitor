@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+
+  <title>ACN Monitor</title>
+  <link href="myStyle.css" rel="stylesheet">
+  </head>
+  <body>
+      <div class="container">
+      <header><h1>ACN Toolkit
+      <div class="version">Beta</div></h1></header>
+
+     
+
+      <div class="content">
+        <script>
+          var format = -1;
+          var getUni;
+          var Dmx = new Array();
+        </script>
+        <form>
+          <select name="DMX Universe" onchange="getUni = this.value">
+          <option value="">Select a Universe</option>
+          <option Value="UNIVERSE_1">Universe 1</option>
+          <option Value="UNIVERSE_2">Universe 2</option>
+          <option Value="UNIVERSE_3">Universe 3</option>
+          <option Value="UNIVERSE_4">Universe 4</option>
+        </select>
+        <select name="Format" onchange="format = this.value">
+          <option value="">Select format</option>
+          <option value ="0">Raw</option>
+          <option value="1">Percentage</option>
+          <option value="2">Sky Panel Layout</option>
+        </select>
+        </form>
+
+
+
+        <div id="output" class="output">Select a Universe to monitor.</div>
+
+      </div>
+     </div>
+      <footer> Built by Joe Martin 2018</footer>
+      <script src="/Js/Layout.js"></script>
+      <script src="/Js/jquery-3.3.1.js"></script>
+      <script src="/Js/monitor.js"></script>
+  </body>
+</html>
